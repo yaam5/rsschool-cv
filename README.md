@@ -1,1 +1,1 @@
-# rsschool-cv
+https://yaam5.github.io/rsschool-cv/cv
