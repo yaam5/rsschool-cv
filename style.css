@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Michroma', sans-serif;
+}
+
+.container-centered {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 2000px;
+}
+
+.left-side {
+    background: url('./assets/CVphoto.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 2000px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.profile-text {
+    display: flex;
+    width: 100%;
+    height: 2000px;
+    flex-direction: column;
+    justify-content: space-between; 
+    text-decoration: none; 
+    margin: 60px 0;
+}
+
+.h1-title-name {
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.h2-title-name {
+    display: flex;
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    width: 100%;
+    color: aliceblue;
+    width: 100%; 
+    flex-direction: column;
+}
+
+.title-contacts {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 38px;
+}
+
+.contacts-list {
+    justify-content: flex-start;
+}
+
+.nav-link {
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(237, 234, 26);
+}
+
+.right-side {
+    background-color: brown;
+    background-size: 100%;
+    display: flex;
+    width: 60%;
+    height: 2000px;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 1950px;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+h1 h2 {
+    text-decoration: none;    
+}
+
+.linkproject {
+    color:black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    margin: 0 45px;
+}
+
+ul {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px;
+    text-decoration: none;
+}
